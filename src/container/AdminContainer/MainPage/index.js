@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.scss";
-import { Link ,Outlet} from "react-router-dom";
+import { Link ,Outlet,Route, Routes} from "react-router-dom";
 import AllSection from "../AllSection";
 
 const MainPage=()=>{
@@ -23,8 +23,8 @@ const MainPage=()=>{
                <Link to={"compProj"}> <div className="comp-proj">Completed projects</div></Link>
                 <Link to={"pendProj"}><div className="pend-proj">Pending projects</div></Link>
             </div>
+            <Outlet/>
             
-            <Outlet/> 
              
         </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../Layout";
-
+import AllSection from "./AllSection";
 import MainPage from "./MainPage";
 
 const AdminContainer = () => {
@@ -10,7 +10,7 @@ const AdminContainer = () => {
       
       <Layout/>
       <MainPage/>
-      
+     
       
     </div>
   )
