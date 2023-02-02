@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+
+
+.main-section {
+    width: auto;
+    height: auto;
+    margin-left: 105px;
+    font-family: 'Google Sans';
+  .home-section{display: none;}
+  .layer-section{display: none;}
+  .bookmark-section{
+    display:none;
+  }
+  .grid-section{
+    display: block;
+    height:auto;
+    width:auto;
+
+  .title-bar {
+    width: 416px;
+    height: 79px;
+    margin-top: 43px;
+    margin-left: 32px;
+    text-align: left;
+    .heading {
+      font-family: "Google Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 51px;
+      color: #000000;
+    }
+    .fill {
+      font-family: "Google Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+
+      color: #b58392;
+    }
+  }
+  .projects-bar {
+    width: 1312px;
+    height: 65px;
+   
+    margin-top: 48px;
+    margin-bottom: 61px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #b5b5b7;
+    display: inline-block;
+    font-family: "Google Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #b58392;
+
+    .all {
+      float: left;
+      width: 22px;
+      height: 25px;
+      margin-left: 48px;
+      color: #b58392;
+      margin-right: 232.67px;
+      
+    }
+    .ongoings-proj {
+      float: left;
+      width: 164px;
+      height: 25px;
+      margin-right: 232.67px;
+      color: #b58392;
+    }
+    .comp-proj {
+      float: left;
+      width: 180px;
+      height: 25px;
+      margin-right: 232.67px;
+      color: #b58392;
+    }
+    .pend-proj {
+      float: left;
+      width: 152px;
+      height: 25px;
+      color: #b58392;
+    }
+  }
+}
+.folder-section{
+  display: none;
+}
+.notification-section{
+  display:none;
+}
+
+}

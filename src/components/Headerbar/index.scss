@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.wrapper{
+    width: auto;
+    height: auto;
+    display: flow-root;
+    font-family: 'Google Sans';
+   
+    .profile-bar {
+      width: auto;
+      height: 117px;
+      position:fixed;
+      background: #ffffff;
+      border-bottom: 1px solid #f2f3f7;
+      overflow: hidden;
+  
+      .logo-box {
+       
+        width: 242.07px;
+        height: 30px;
+        margin-left: 38px;
+        margin-top: 44px;
+        margin-bottom: 43px;
+        display: inline-block;
+        margin-right: 1138.93px;
+  
+        .logo {
+          float: left;
+          margin-right: 9px;
+          img {
+            height: 21.4px;
+            width: 21.4px;
+          }
+        }
+        .iweb {
+          float: left;
+          margin-right: 10px;
+          padding-top: 7.5px;
+          
+          img {
+            height: 16px;
+            width: 115px;
+          }
+        }
+        .vertical {
+          float: left;
+          margin-right: 10px;
+          width: 0px;
+          height: 30px;
+  
+          border: 0.5px solid rgba(181, 181, 183, 0.5);
+        }
+        .emp-box {
+          float: left;
+  
+          background: rgba(255, 186, 95, 0.1);
+          border-radius: 2px;
+          width: 75.07px;
+          height: 29.04px;
+          font-family: "Google Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 8px;
+          line-height: 10px;
+          letter-spacing: 0.1em;
+          margin-top: 0.4px;
+          
+          color: #f99e24;
+          .text {
+          
+            width: 45px;
+height: 15px;
+            padding: 7.02px 15.04px;
+          }
+        }
+      }
+      .photo-box {
+        float: right;
+  
+        
+        margin-top: 31px;
+        margin-right: 38px;
+        margin-bottom: 32px;
+  
+        width: 54px;
+        height: 54px;
+       
+      }
+    }
+}
